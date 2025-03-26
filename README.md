@@ -134,5 +134,55 @@ FOREIGN KEY (BotCode) REFERENCES bots(BotCode) ON DELETE CASCADE;
 ('20330459','Priyanka Prashar', 'GROUP INFORMATION TECHNOLOGY'),
 ('998133','Dhruvang Soni', 'GROUP INFORMATION TECHNOLOGY');
 
+project code: HRRL-PFCCU
+Project: Petrochemical fluidized catalytic cracking unit(HRRL-PFCCU)
+Client: Hindustan Petroleum Corporation Limited (HPCL)
+Contractor: L&T Hydrocarbon Engineering (LTHE)
+Location: Barmer, Rajasthan, India
+lat: 26.772163, lon: 72.405757,
+ 
+project code: HRRL-DFCU
+Project: Development Finance Company of Uganda Limited(HRRL-DFCU)
+Client: Hindustan Petroleum Corporation Limited (HPCL)
+Contractor: L&T Hydrocarbon Engineering (LTHE)
+Location: Barmer, Rajasthan, India
+lat: 25.746092, lon: 71.397454,
+ 
+project code: HPCL-RUF
+Project: Hindustan Petroleum Corporation Limited - Residue Upgradation Facility (HPCL-RUF)
+Client: Hindustan Petroleum Corporation Limited (HPCL)
+Contractor: L&T Hydrocarbon Engineering (LTHE)
+Location: Visakhapatnam, Andhra Pradesh, India
+lat: 17.68858, lon: 83.251943,
+ 
+project code: IOCL-DHDT
+Project: Diesel Hydrotreating (IOCL-DHDT)
+Client:</strong> Indian Oil Corporation (IOCL)
+Contractor:</strong> L&T Hydrocarbon Engineering (LTHE)
+Location:</strong> Panipat, India
+lat: 29.4676433, lon: 76.8754072,
+ 
+project code: IOCL-O&U
+Project: Diesel Hydrotreating (IOCL-DHDT)
+Client: Indian Oil Corporation (IOCL)
+Contractor: L&T Hydrocarbon Engineering (LTHE)
+Location: Panipat, India
+lat: 21.5431241, lon: 84.6897321,
+ 
+ 
+project code: JGP-21
+Project: Jharsuguda Gas Pipeline (JGP-21)
+Client: 
+Contractor: L&T Hydrocarbon Engineering (LTHE)
+Location: 
+lat: 23.885942, lon: 45.079162,
+ 
+ 
+project code: JGCP-31
+Project: Jafurah Gas Compression Project(JGP-21)
+Client: SEJIN Plant Engineering/Hyundai Engineering & Construction(South Korea) 
+Contractor: L&T Hydrocarbon Engineering (LTHE)
+Location: Al Jouf Province, Saudi Arabia
+lat: 23.885942, lon: 45.079162
 
 
