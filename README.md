@@ -107,6 +107,26 @@ Create Table cost_tracking(
 );
 
 selecr * from cost_tracking;
+SELECT CONSTRAINT_NAME, COLUMN_NAME 
+FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE 
+WHERE TABLE_NAME = 'access_matrix' 
+AND TABLE_SCHEMA = DATABASE();
+
+ALTER TABLE access_matrix DROP FOREIGN KEY fk_old_UserPSNo;
+ALTER TABLE access_matrix DROP FOREIGN KEY fk_old_ProjectCode;
+ALTER TABLE access_matrix DROP FOREIGN KEY fk_old_BotCode;
+
+ALTER TABLE access_matrix 
+ADD CONSTRAINT fk_access_matrix_UserPSNo 
+FOREIGN KEY (UserPSNo) REFERENCES users(UserPSNo) ON DELETE CASCADE;
+
+ALTER TABLE access_matrix 
+ADD CONSTRAINT fk_access_matrix_ProjectCode 
+FOREIGN KEY (ProjectCode) REFERENCES projects(ProjectCode) ON DELETE CASCADE;
+
+ALTER TABLE access_matrix 
+ADD CONSTRAINT fk_access_matrix_BotCode 
+FOREIGN KEY (BotCode) REFERENCES bots(BotCode) ON DELETE CASCADE;
 
 
 
