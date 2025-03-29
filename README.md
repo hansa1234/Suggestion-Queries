@@ -185,4 +185,32 @@ Contractor: L&T Hydrocarbon Engineering (LTHE)
 Location: Al Jouf Province, Saudi Arabia
 lat: 23.885942, lon: 45.079162
 
+INSERT INTO cost_tracking (ID, ServerType, UserPSNo, Date_, BotCode, ProjectCode, UnitsConsumed)
+VALUES 
+(1, 'AWS', 101, '2025-03-29', 'BOT_A', 'PROJ_1', 500),
+(2, 'Azure', 102, '2025-03-29', 'BOT_B', 'PROJ_2', 600),
+(3, 'GCP', 103, '2025-03-29', 'BOT_C', 'PROJ_3', 700),
+(4, 'AWS', 104, '2025-03-28', 'BOT_A', 'PROJ_1', 550),
+(5, 'Azure', 105, '2025-03-28', 'BOT_B', 'PROJ_2', 750),
+(6, 'GCP', 106, '2025-03-28', 'BOT_C', 'PROJ_3', 650),
+(7, 'AWS', 107, '2025-03-27', 'BOT_A', 'PROJ_1', 520),
+(8, 'Azure', 108, '2025-03-27', 'BOT_D', 'PROJ_4', 620),
+(9, 'GCP', 109, '2025-03-27', 'BOT_E', 'PROJ_5', 800),
+(10, 'AWS', 110, '2025-03-26', 'BOT_B', 'PROJ_2', 580),
+(11, 'Azure', 111, '2025-03-26', 'BOT_C', 'PROJ_3', 720),
+(12, 'GCP', 112, '2025-03-26', 'BOT_A', 'PROJ_1', 500),
+(13, 'AWS', 113, '2025-03-25', 'BOT_D', 'PROJ_4', 650),
+(14, 'Azure', 114, '2025-03-25', 'BOT_E', 'PROJ_5', 700),
+(15, 'GCP', 115, '2025-03-25', 'BOT_B', 'PROJ_2', 600),
+(16, 'AWS', 116, '2025-03-29', 'BOT_F', 'PROJ_6', 900),
+(17, 'Azure', 117, '2025-03-28', 'BOT_G', 'PROJ_7', 450),
+(18, 'GCP', 118, '2025-03-27', 'BOT_H', 'PROJ_8', 670),
+(19, 'AWS', 119, '2025-03-26', 'BOT_I', 'PROJ_9', 720),
+(20, 'Azure', 120, '2025-03-25', 'BOT_J', 'PROJ_10', 580),
+(21, 'GCP', 121, '2025-03-29', 'BOT_A', 'PROJ_2', 630),
+(22, 'AWS', 122, '2025-03-28', 'BOT_B', 'PROJ_3', 700),
+(23, 'Azure', 123, '2025-03-27', 'BOT_C', 'PROJ_4', 590),
+(24, 'GCP', 124, '2025-03-26', 'BOT_D', 'PROJ_5', 860),
+(25, 'AWS', 125, '2025-03-25', 'BOT_E', 'PROJ_6', 730);
+
 
