@@ -102,7 +102,7 @@ ALTER TABLE access_management_request DROP FOREIGN KEY access_management_request
 ALTER TABLE access_management_request
 ADD COLUMN Department varchar(100);
 describe users;
- select * from suggestion_queries;
+select * from suggestion_queries;
 
 									
 
